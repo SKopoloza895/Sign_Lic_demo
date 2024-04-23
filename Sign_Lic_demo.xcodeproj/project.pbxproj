@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		015FD13A2B98C42B00FE31B3 /* Sign_Lic_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015FD1392B98C42B00FE31B3 /* Sign_Lic_demoApp.swift */; };
+		015FD13C2B98C42B00FE31B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015FD13B2B98C42B00FE31B3 /* ContentView.swift */; };
+		015FD13E2B98C42D00FE31B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 015FD13D2B98C42D00FE31B3 /* Assets.xcassets */; };
+		015FD1412B98C42D00FE31B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 015FD1402B98C42D00FE31B3 /* Preview Assets.xcassets */; };
+		015FD1492B98C4B000FE31B3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015FD1482B98C4B000FE31B3 /* HomeView.swift */; };
+		0183AC8B2BC2A189001F64E9 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183AC8A2BC2A189001F64E9 /* SplashScreenView.swift */; };
+		0183AC8D2BC52739001F64E9 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183AC8C2BC52739001F64E9 /* OnboardingView.swift */; };
+		0183AC8F2BC52827001F64E9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183AC8E2BC52827001F64E9 /* LoginView.swift */; };
+		0183AC912BC5288F001F64E9 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183AC902BC5288F001F64E9 /* RegisterView.swift */; };
+		0183AC972BCC1C5F001F64E9 /* K53View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183AC962BCC1C5F001F64E9 /* K53View.swift */; };
+		0183AC992BCC1C89001F64E9 /* FAQsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183AC982BCC1C89001F64E9 /* FAQsView.swift */; };
+		0183AC9B2BCC1CB3001F64E9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183AC9A2BCC1CB3001F64E9 /* ProfileView.swift */; };
+		0183ACA12BCC2E3D001F64E9 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183ACA02BCC2E3D001F64E9 /* QuestionView.swift */; };
+		0183ACA42BCC2F63001F64E9 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183ACA32BCC2F63001F64E9 /* PrimaryButton.swift */; };
+		0183ACA62BCC31D0001F64E9 /* ContentMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183ACA52BCC31D0001F64E9 /* ContentMainView.swift */; };
+		0183ACA82BCC3582001F64E9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183ACA72BCC3582001F64E9 /* Extensions.swift */; };
+		0183ACAA2BCC3810001F64E9 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183ACA92BCC3810001F64E9 /* ProgressBar.swift */; };
+		0183ACAD2BCC46F1001F64E9 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183ACAC2BCC46F1001F64E9 /* Answer.swift */; };
+		0183ACAF2BCC47BE001F64E9 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183ACAE2BCC47BE001F64E9 /* AnswerRow.swift */; };
+		0183ACB12BCC4D65001F64E9 /* SignLearnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183ACB02BCC4D65001F64E9 /* SignLearnerView.swift */; };
+		0183ACB32BCC658E001F64E9 /* SignsLearner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183ACB22BCC658E001F64E9 /* SignsLearner.swift */; };
+		0183ACB52BCC675E001F64E9 /* SignManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183ACB42BCC675E001F64E9 /* SignManager.swift */; };
+		0183ACB82BCC7670001F64E9 /* deafLearnerLicenceData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACB72BCC7670001F64E9 /* deafLearnerLicenceData.json */; };
+		0183ACC12BCE781B001F64E9 /* carViewGreen.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACC02BCE781B001F64E9 /* carViewGreen.jpeg */; };
+		0183ACE82BCE788F001F64E9 /* carryLoad@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACC22BCE788E001F64E9 /* carryLoad@2x.jpeg */; };
+		0183ACE92BCE788F001F64E9 /* roadNarrowsBothSide@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACC32BCE788E001F64E9 /* roadNarrowsBothSide@2x.png */; };
+		0183ACEA2BCE788F001F64E9 /* sketch6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACC42BCE788E001F64E9 /* sketch6@2x.png */; };
+		0183ACEB2BCE788F001F64E9 /* greenArrowFlashesRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACC52BCE788E001F64E9 /* greenArrowFlashesRight@2x.png */; };
+		0183ACEC2BCE788F001F64E9 /* minibuses@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACC62BCE788E001F64E9 /* minibuses@2x.png */; };
+		0183ACED2BCE788F001F64E9 /* leftAhead@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACC72BCE788E001F64E9 /* leftAhead@2x.png */; };
+		0183ACEE2BCE788F001F64E9 /* mayNotDrive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACC82BCE788E001F64E9 /* mayNotDrive@2x.png */; };
+		0183ACEF2BCE788F001F64E9 /* travelNight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACC92BCE788E001F64E9 /* travelNight@2x.png */; };
+		0183ACF02BCE788F001F64E9 /* slipperyWet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACCA2BCE788E001F64E9 /* slipperyWet@2x.png */; };
+		0183ACF12BCE788F001F64E9 /* towardsCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACCB2BCE788E001F64E9 /* towardsCircle@2x.png */; };
+		0183ACF22BCE788F001F64E9 /* arrowEsketch@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACCC2BCE788E001F64E9 /* arrowEsketch@2x.jpeg */; };
+		0183ACF32BCE788F001F64E9 /* pedestrian@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACCD2BCE788E001F64E9 /* pedestrian@2x.png */; };
+		0183ACF42BCE788F001F64E9 /* trafficOfficerOrders@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACCE2BCE788E001F64E9 /* trafficOfficerOrders@2x.jpeg */; };
+		0183ACF52BCE788F001F64E9 /* L1_L2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACCF2BCE788E001F64E9 /* L1_L2@2x.png */; };
+		0183ACF62BCE788F001F64E9 /* gravelRoad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACD02BCE788E001F64E9 /* gravelRoad@2x.png */; };
+		0183ACF72BCE788F001F64E9 /* noMotorCars@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACD12BCE788E001F64E9 /* noMotorCars@2x.png */; };
+		0183ACF82BCE788F001F64E9 /* notOvertakeSide@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACD22BCE788E001F64E9 /* notOvertakeSide@2x.png */; };
+		0183ACF92BCE788F001F64E9 /* left-only-sign@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACD32BCE788E001F64E9 /* left-only-sign@2x.jpeg */; };
+		0183ACFA2BCE788F001F64E9 /* in6Sign@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACD42BCE788E001F64E9 /* in6Sign@2x.jpeg */; };
+		0183ACFB2BCE788F001F64E9 /* overtake@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACD52BCE788F001F64E9 /* overtake@2x.jpeg */; };
+		0183ACFC2BCE788F001F64E9 /* carRoadSign@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACD62BCE788F001F64E9 /* carRoadSign@2x.png */; };
+		0183ACFD2BCE788F001F64E9 /* RTM1Sketch@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACD72BCE788F001F64E9 /* RTM1Sketch@2x.jpeg */; };
+		0183ACFE2BCE788F001F64E9 /* concealed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACD82BCE788F001F64E9 /* concealed@2x.png */; };
+		0183ACFF2BCE788F001F64E9 /* control_Car@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACD92BCE788F001F64E9 /* control_Car@2x.jpeg */; };
+		0183AD002BCE788F001F64E9 /* turn-right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACDA2BCE788F001F64E9 /* turn-right@2x.png */; };
+		0183AD012BCE788F001F64E9 /* yieldRoadMark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACDB2BCE788F001F64E9 /* yieldRoadMark@2x.png */; };
+		0183AD022BCE788F001F64E9 /* YieldToPedestrians@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACDC2BCE788F001F64E9 /* YieldToPedestrians@2x.png */; };
+		0183AD032BCE788F001F64E9 /* goodVehichleLoad@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACDD2BCE788F001F64E9 /* goodVehichleLoad@2x.jpeg */; };
+		0183AD042BCE788F001F64E9 /* lookoutAgricultural@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACDE2BCE788F001F64E9 /* lookoutAgricultural@2x.png */; };
+		0183AD052BCE788F001F64E9 /* massTone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACDF2BCE788F001F64E9 /* massTone@2x.png */; };
+		0183AD062BCE788F001F64E9 /* temporaryObstructionLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACE02BCE788F001F64E9 /* temporaryObstructionLeft@2x.png */; };
+		0183AD072BCE788F001F64E9 /* stop_sign@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACE12BCE788F001F64E9 /* stop_sign@2x.jpeg */; };
+		0183AD082BCE788F001F64E9 /* left_sign@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACE22BCE788F001F64E9 /* left_sign@2x.jpeg */; };
+		0183AD092BCE788F001F64E9 /* roadEndWaterAhead@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACE32BCE788F001F64E9 /* roadEndWaterAhead@2x.png */; };
+		0183AD0A2BCE788F001F64E9 /* raliwayAhead@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACE42BCE788F001F64E9 /* raliwayAhead@2x.png */; };
+		0183AD0B2BCE788F001F64E9 /* markingsRTM3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACE52BCE788F001F64E9 /* markingsRTM3@2x.png */; };
+		0183AD0C2BCE788F001F64E9 /* traffic_Signals@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACE62BCE788F001F64E9 /* traffic_Signals@2x.jpeg */; };
+		0183AD0D2BCE788F001F64E9 /* leftYieldSign@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACE72BCE788F001F64E9 /* leftYieldSign@2x.png */; };
+		01D56F6E2BD79B6300FD1082 /* VideoTestGitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D56F6D2BD79B6300FD1082 /* VideoTestGitView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		015FD1362B98C42B00FE31B3 /* Sign_Lic_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sign_Lic_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		015FD1392B98C42B00FE31B3 /* Sign_Lic_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign_Lic_demoApp.swift; sourceTree = "<group>"; };
+		015FD13B2B98C42B00FE31B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		015FD13D2B98C42D00FE31B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		015FD1402B98C42D00FE31B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		015FD1482B98C4B000FE31B3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0183AC8A2BC2A189001F64E9 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		0183AC8C2BC52739001F64E9 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		0183AC8E2BC52827001F64E9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0183AC902BC5288F001F64E9 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		0183AC962BCC1C5F001F64E9 /* K53View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K53View.swift; sourceTree = "<group>"; };
+		0183AC982BCC1C89001F64E9 /* FAQsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQsView.swift; sourceTree = "<group>"; };
+		0183AC9A2BCC1CB3001F64E9 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		0183ACA02BCC2E3D001F64E9 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		0183ACA32BCC2F63001F64E9 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		0183ACA52BCC31D0001F64E9 /* ContentMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMainView.swift; sourceTree = "<group>"; };
+		0183ACA72BCC3582001F64E9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0183ACA92BCC3810001F64E9 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		0183ACAC2BCC46F1001F64E9 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		0183ACAE2BCC47BE001F64E9 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
+		0183ACB02BCC4D65001F64E9 /* SignLearnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignLearnerView.swift; sourceTree = "<group>"; };
+		0183ACB22BCC658E001F64E9 /* SignsLearner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignsLearner.swift; sourceTree = "<group>"; };
+		0183ACB42BCC675E001F64E9 /* SignManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignManager.swift; sourceTree = "<group>"; };
+		0183ACB72BCC7670001F64E9 /* deafLearnerLicenceData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = deafLearnerLicenceData.json; sourceTree = "<group>"; };
+		0183ACB92BCC76AB001F64E9 /* testVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = testVideo.mp4; sourceTree = "<group>"; };
+		0183ACBA2BCC76AB001F64E9 /* hello.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hello.mp4; sourceTree = "<group>"; };
+		0183ACC02BCE781B001F64E9 /* carViewGreen.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carViewGreen.jpeg; sourceTree = "<group>"; };
+		0183ACC22BCE788E001F64E9 /* carryLoad@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "carryLoad@2x.jpeg"; sourceTree = "<group>"; };
+		0183ACC32BCE788E001F64E9 /* roadNarrowsBothSide@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "roadNarrowsBothSide@2x.png"; sourceTree = "<group>"; };
+		0183ACC42BCE788E001F64E9 /* sketch6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sketch6@2x.png"; sourceTree = "<group>"; };
+		0183ACC52BCE788E001F64E9 /* greenArrowFlashesRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenArrowFlashesRight@2x.png"; sourceTree = "<group>"; };
+		0183ACC62BCE788E001F64E9 /* minibuses@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minibuses@2x.png"; sourceTree = "<group>"; };
+		0183ACC72BCE788E001F64E9 /* leftAhead@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftAhead@2x.png"; sourceTree = "<group>"; };
+		0183ACC82BCE788E001F64E9 /* mayNotDrive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mayNotDrive@2x.png"; sourceTree = "<group>"; };
+		0183ACC92BCE788E001F64E9 /* travelNight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "travelNight@2x.png"; sourceTree = "<group>"; };
+		0183ACCA2BCE788E001F64E9 /* slipperyWet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slipperyWet@2x.png"; sourceTree = "<group>"; };
+		0183ACCB2BCE788E001F64E9 /* towardsCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "towardsCircle@2x.png"; sourceTree = "<group>"; };
+		0183ACCC2BCE788E001F64E9 /* arrowEsketch@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arrowEsketch@2x.jpeg"; sourceTree = "<group>"; };
+		0183ACCD2BCE788E001F64E9 /* pedestrian@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pedestrian@2x.png"; sourceTree = "<group>"; };
+		0183ACCE2BCE788E001F64E9 /* trafficOfficerOrders@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "trafficOfficerOrders@2x.jpeg"; sourceTree = "<group>"; };
+		0183ACCF2BCE788E001F64E9 /* L1_L2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L1_L2@2x.png"; sourceTree = "<group>"; };
+		0183ACD02BCE788E001F64E9 /* gravelRoad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gravelRoad@2x.png"; sourceTree = "<group>"; };
+		0183ACD12BCE788E001F64E9 /* noMotorCars@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noMotorCars@2x.png"; sourceTree = "<group>"; };
+		0183ACD22BCE788E001F64E9 /* notOvertakeSide@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notOvertakeSide@2x.png"; sourceTree = "<group>"; };
+		0183ACD32BCE788E001F64E9 /* left-only-sign@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "left-only-sign@2x.jpeg"; sourceTree = "<group>"; };
+		0183ACD42BCE788E001F64E9 /* in6Sign@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "in6Sign@2x.jpeg"; sourceTree = "<group>"; };
+		0183ACD52BCE788F001F64E9 /* overtake@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "overtake@2x.jpeg"; sourceTree = "<group>"; };
+		0183ACD62BCE788F001F64E9 /* carRoadSign@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carRoadSign@2x.png"; sourceTree = "<group>"; };
+		0183ACD72BCE788F001F64E9 /* RTM1Sketch@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "RTM1Sketch@2x.jpeg"; sourceTree = "<group>"; };
+		0183ACD82BCE788F001F64E9 /* concealed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "concealed@2x.png"; sourceTree = "<group>"; };
+		0183ACD92BCE788F001F64E9 /* control_Car@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "control_Car@2x.jpeg"; sourceTree = "<group>"; };
+		0183ACDA2BCE788F001F64E9 /* turn-right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turn-right@2x.png"; sourceTree = "<group>"; };
+		0183ACDB2BCE788F001F64E9 /* yieldRoadMark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yieldRoadMark@2x.png"; sourceTree = "<group>"; };
+		0183ACDC2BCE788F001F64E9 /* YieldToPedestrians@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YieldToPedestrians@2x.png"; sourceTree = "<group>"; };
+		0183ACDD2BCE788F001F64E9 /* goodVehichleLoad@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "goodVehichleLoad@2x.jpeg"; sourceTree = "<group>"; };
+		0183ACDE2BCE788F001F64E9 /* lookoutAgricultural@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lookoutAgricultural@2x.png"; sourceTree = "<group>"; };
+		0183ACDF2BCE788F001F64E9 /* massTone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "massTone@2x.png"; sourceTree = "<group>"; };
+		0183ACE02BCE788F001F64E9 /* temporaryObstructionLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "temporaryObstructionLeft@2x.png"; sourceTree = "<group>"; };
+		0183ACE12BCE788F001F64E9 /* stop_sign@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stop_sign@2x.jpeg"; sourceTree = "<group>"; };
+		0183ACE22BCE788F001F64E9 /* left_sign@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "left_sign@2x.jpeg"; sourceTree = "<group>"; };
+		0183ACE32BCE788F001F64E9 /* roadEndWaterAhead@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "roadEndWaterAhead@2x.png"; sourceTree = "<group>"; };
+		0183ACE42BCE788F001F64E9 /* raliwayAhead@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "raliwayAhead@2x.png"; sourceTree = "<group>"; };
+		0183ACE52BCE788F001F64E9 /* markingsRTM3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "markingsRTM3@2x.png"; sourceTree = "<group>"; };
+		0183ACE62BCE788F001F64E9 /* traffic_Signals@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "traffic_Signals@2x.jpeg"; sourceTree = "<group>"; };
+		0183ACE72BCE788F001F64E9 /* leftYieldSign@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftYieldSign@2x.png"; sourceTree = "<group>"; };
+		0183AD0E2BCE8399001F64E9 /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video4.mp4; sourceTree = "<group>"; };
+		0183AD0F2BCE839A001F64E9 /* video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video3.mp4; sourceTree = "<group>"; };
+		0183AD102BCE87F1001F64E9 /* Sign-Lic-demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Sign-Lic-demo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		01D56F6D2BD79B6300FD1082 /* VideoTestGitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTestGitView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		015FD1332B98C42B00FE31B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		015FD12D2B98C42B00FE31B3 = {
+			isa = PBXGroup;
+			children = (
+				015FD1382B98C42B00FE31B3 /* Sign_Lic_demo */,
+				015FD1372B98C42B00FE31B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		015FD1372B98C42B00FE31B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				015FD1362B98C42B00FE31B3 /* Sign_Lic_demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		015FD1382B98C42B00FE31B3 /* Sign_Lic_demo */ = {
+			isa = PBXGroup;
+			children = (
+				0183AD102BCE87F1001F64E9 /* Sign-Lic-demo-Info.plist */,
+				0183AD112BCE8850001F64E9 /* VideoPlayers */,
+				015FD1392B98C42B00FE31B3 /* Sign_Lic_demoApp.swift */,
+				015FD13B2B98C42B00FE31B3 /* ContentView.swift */,
+				0183AC8C2BC52739001F64E9 /* OnboardingView.swift */,
+				0183ACB62BCC75D0001F64E9 /* Resources */,
+				0183ACAB2BCC4693001F64E9 /* Models */,
+				0183ACA22BCC2F19001F64E9 /* Components */,
+				0183AC9F2BCC2E0B001F64E9 /* Views */,
+				015FD13D2B98C42D00FE31B3 /* Assets.xcassets */,
+				015FD13F2B98C42D00FE31B3 /* Preview Content */,
+				0183ACA72BCC3582001F64E9 /* Extensions.swift */,
+				0183ACB42BCC675E001F64E9 /* SignManager.swift */,
+			);
+			path = Sign_Lic_demo;
+			sourceTree = "<group>";
+		};
+		015FD13F2B98C42D00FE31B3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				015FD1402B98C42D00FE31B3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0183AC9F2BCC2E0B001F64E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0183AC8A2BC2A189001F64E9 /* SplashScreenView.swift */,
+				015FD1482B98C4B000FE31B3 /* HomeView.swift */,
+				0183AC8E2BC52827001F64E9 /* LoginView.swift */,
+				0183AC902BC5288F001F64E9 /* RegisterView.swift */,
+				0183AC962BCC1C5F001F64E9 /* K53View.swift */,
+				0183AC982BCC1C89001F64E9 /* FAQsView.swift */,
+				0183AC9A2BCC1CB3001F64E9 /* ProfileView.swift */,
+				0183ACA52BCC31D0001F64E9 /* ContentMainView.swift */,
+				0183ACA02BCC2E3D001F64E9 /* QuestionView.swift */,
+				0183ACB02BCC4D65001F64E9 /* SignLearnerView.swift */,
+				01D56F6D2BD79B6300FD1082 /* VideoTestGitView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0183ACA22BCC2F19001F64E9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0183ACA32BCC2F63001F64E9 /* PrimaryButton.swift */,
+				0183ACA92BCC3810001F64E9 /* ProgressBar.swift */,
+				0183ACAE2BCC47BE001F64E9 /* AnswerRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0183ACAB2BCC4693001F64E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0183ACAC2BCC46F1001F64E9 /* Answer.swift */,
+				0183ACB22BCC658E001F64E9 /* SignsLearner.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0183ACB62BCC75D0001F64E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0183ACBF2BCE7752001F64E9 /* Images */,
+				0183ACB72BCC7670001F64E9 /* deafLearnerLicenceData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0183ACBF2BCE7752001F64E9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0183ACCC2BCE788E001F64E9 /* arrowEsketch@2x.jpeg */,
+				0183ACD62BCE788F001F64E9 /* carRoadSign@2x.png */,
+				0183ACC22BCE788E001F64E9 /* carryLoad@2x.jpeg */,
+				0183ACD82BCE788F001F64E9 /* concealed@2x.png */,
+				0183ACD92BCE788F001F64E9 /* control_Car@2x.jpeg */,
+				0183ACDD2BCE788F001F64E9 /* goodVehichleLoad@2x.jpeg */,
+				0183ACD02BCE788E001F64E9 /* gravelRoad@2x.png */,
+				0183ACC52BCE788E001F64E9 /* greenArrowFlashesRight@2x.png */,
+				0183ACD42BCE788E001F64E9 /* in6Sign@2x.jpeg */,
+				0183ACCF2BCE788E001F64E9 /* L1_L2@2x.png */,
+				0183ACE22BCE788F001F64E9 /* left_sign@2x.jpeg */,
+				0183ACD32BCE788E001F64E9 /* left-only-sign@2x.jpeg */,
+				0183ACC72BCE788E001F64E9 /* leftAhead@2x.png */,
+				0183ACE72BCE788F001F64E9 /* leftYieldSign@2x.png */,
+				0183ACDE2BCE788F001F64E9 /* lookoutAgricultural@2x.png */,
+				0183ACE52BCE788F001F64E9 /* markingsRTM3@2x.png */,
+				0183ACDF2BCE788F001F64E9 /* massTone@2x.png */,
+				0183ACC82BCE788E001F64E9 /* mayNotDrive@2x.png */,
+				0183ACC62BCE788E001F64E9 /* minibuses@2x.png */,
+				0183ACD12BCE788E001F64E9 /* noMotorCars@2x.png */,
+				0183ACD22BCE788E001F64E9 /* notOvertakeSide@2x.png */,
+				0183ACD52BCE788F001F64E9 /* overtake@2x.jpeg */,
+				0183ACCD2BCE788E001F64E9 /* pedestrian@2x.png */,
+				0183ACE42BCE788F001F64E9 /* raliwayAhead@2x.png */,
+				0183ACE32BCE788F001F64E9 /* roadEndWaterAhead@2x.png */,
+				0183ACC32BCE788E001F64E9 /* roadNarrowsBothSide@2x.png */,
+				0183ACD72BCE788F001F64E9 /* RTM1Sketch@2x.jpeg */,
+				0183ACC42BCE788E001F64E9 /* sketch6@2x.png */,
+				0183ACCA2BCE788E001F64E9 /* slipperyWet@2x.png */,
+				0183ACE12BCE788F001F64E9 /* stop_sign@2x.jpeg */,
+				0183ACE02BCE788F001F64E9 /* temporaryObstructionLeft@2x.png */,
+				0183ACCB2BCE788E001F64E9 /* towardsCircle@2x.png */,
+				0183ACE62BCE788F001F64E9 /* traffic_Signals@2x.jpeg */,
+				0183ACCE2BCE788E001F64E9 /* trafficOfficerOrders@2x.jpeg */,
+				0183ACC92BCE788E001F64E9 /* travelNight@2x.png */,
+				0183ACDA2BCE788F001F64E9 /* turn-right@2x.png */,
+				0183ACDB2BCE788F001F64E9 /* yieldRoadMark@2x.png */,
+				0183ACDC2BCE788F001F64E9 /* YieldToPedestrians@2x.png */,
+				0183ACC02BCE781B001F64E9 /* carViewGreen.jpeg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		0183AD112BCE8850001F64E9 /* VideoPlayers */ = {
+			isa = PBXGroup;
+			children = (
+				0183AD0E2BCE8399001F64E9 /* video4.mp4 */,
+				0183ACBA2BCC76AB001F64E9 /* hello.mp4 */,
+				0183ACB92BCC76AB001F64E9 /* testVideo.mp4 */,
+				0183AD0F2BCE839A001F64E9 /* video3.mp4 */,
+			);
+			path = VideoPlayers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		015FD1352B98C42B00FE31B3 /* Sign_Lic_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 015FD1442B98C42D00FE31B3 /* Build configuration list for PBXNativeTarget "Sign_Lic_demo" */;
+			buildPhases = (
+				015FD1322B98C42B00FE31B3 /* Sources */,
+				015FD1332B98C42B00FE31B3 /* Frameworks */,
+				015FD1342B98C42B00FE31B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sign_Lic_demo;
+			productName = Sign_Lic_demo;
+			productReference = 015FD1362B98C42B00FE31B3 /* Sign_Lic_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		015FD12E2B98C42B00FE31B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					015FD1352B98C42B00FE31B3 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 015FD1312B98C42B00FE31B3 /* Build configuration list for PBXProject "Sign_Lic_demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 015FD12D2B98C42B00FE31B3;
+			productRefGroup = 015FD1372B98C42B00FE31B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				015FD1352B98C42B00FE31B3 /* Sign_Lic_demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		015FD1342B98C42B00FE31B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0183ACF92BCE788F001F64E9 /* left-only-sign@2x.jpeg in Resources */,
+				0183ACF42BCE788F001F64E9 /* trafficOfficerOrders@2x.jpeg in Resources */,
+				0183AD0D2BCE788F001F64E9 /* leftYieldSign@2x.png in Resources */,
+				0183ACF62BCE788F001F64E9 /* gravelRoad@2x.png in Resources */,
+				0183ACEE2BCE788F001F64E9 /* mayNotDrive@2x.png in Resources */,
+				0183ACFA2BCE788F001F64E9 /* in6Sign@2x.jpeg in Resources */,
+				0183ACB82BCC7670001F64E9 /* deafLearnerLicenceData.json in Resources */,
+				0183ACE92BCE788F001F64E9 /* roadNarrowsBothSide@2x.png in Resources */,
+				0183AD032BCE788F001F64E9 /* goodVehichleLoad@2x.jpeg in Resources */,
+				0183ACF12BCE788F001F64E9 /* towardsCircle@2x.png in Resources */,
+				0183ACF52BCE788F001F64E9 /* L1_L2@2x.png in Resources */,
+				0183AD0B2BCE788F001F64E9 /* markingsRTM3@2x.png in Resources */,
+				0183ACEB2BCE788F001F64E9 /* greenArrowFlashesRight@2x.png in Resources */,
+				0183AD082BCE788F001F64E9 /* left_sign@2x.jpeg in Resources */,
+				0183AD0C2BCE788F001F64E9 /* traffic_Signals@2x.jpeg in Resources */,
+				0183ACFE2BCE788F001F64E9 /* concealed@2x.png in Resources */,
+				0183ACFC2BCE788F001F64E9 /* carRoadSign@2x.png in Resources */,
+				0183ACED2BCE788F001F64E9 /* leftAhead@2x.png in Resources */,
+				015FD1412B98C42D00FE31B3 /* Preview Assets.xcassets in Resources */,
+				0183ACE82BCE788F001F64E9 /* carryLoad@2x.jpeg in Resources */,
+				0183ACF82BCE788F001F64E9 /* notOvertakeSide@2x.png in Resources */,
+				0183AD022BCE788F001F64E9 /* YieldToPedestrians@2x.png in Resources */,
+				0183AD002BCE788F001F64E9 /* turn-right@2x.png in Resources */,
+				0183ACF22BCE788F001F64E9 /* arrowEsketch@2x.jpeg in Resources */,
+				0183AD052BCE788F001F64E9 /* massTone@2x.png in Resources */,
+				0183ACEF2BCE788F001F64E9 /* travelNight@2x.png in Resources */,
+				0183ACEC2BCE788F001F64E9 /* minibuses@2x.png in Resources */,
+				015FD13E2B98C42D00FE31B3 /* Assets.xcassets in Resources */,
+				0183ACEA2BCE788F001F64E9 /* sketch6@2x.png in Resources */,
+				0183AD042BCE788F001F64E9 /* lookoutAgricultural@2x.png in Resources */,
+				0183ACF32BCE788F001F64E9 /* pedestrian@2x.png in Resources */,
+				0183AD0A2BCE788F001F64E9 /* raliwayAhead@2x.png in Resources */,
+				0183AD092BCE788F001F64E9 /* roadEndWaterAhead@2x.png in Resources */,
+				0183AD012BCE788F001F64E9 /* yieldRoadMark@2x.png in Resources */,
+				0183ACF02BCE788F001F64E9 /* slipperyWet@2x.png in Resources */,
+				0183AD072BCE788F001F64E9 /* stop_sign@2x.jpeg in Resources */,
+				0183ACF72BCE788F001F64E9 /* noMotorCars@2x.png in Resources */,
+				0183ACC12BCE781B001F64E9 /* carViewGreen.jpeg in Resources */,
+				0183ACFD2BCE788F001F64E9 /* RTM1Sketch@2x.jpeg in Resources */,
+				0183AD062BCE788F001F64E9 /* temporaryObstructionLeft@2x.png in Resources */,
+				0183ACFB2BCE788F001F64E9 /* overtake@2x.jpeg in Resources */,
+				0183ACFF2BCE788F001F64E9 /* control_Car@2x.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		015FD1322B98C42B00FE31B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0183AC8F2BC52827001F64E9 /* LoginView.swift in Sources */,
+				0183AC8B2BC2A189001F64E9 /* SplashScreenView.swift in Sources */,
+				0183AC9B2BCC1CB3001F64E9 /* ProfileView.swift in Sources */,
+				0183ACAF2BCC47BE001F64E9 /* AnswerRow.swift in Sources */,
+				01D56F6E2BD79B6300FD1082 /* VideoTestGitView.swift in Sources */,
+				0183ACB52BCC675E001F64E9 /* SignManager.swift in Sources */,
+				015FD13C2B98C42B00FE31B3 /* ContentView.swift in Sources */,
+				0183ACB12BCC4D65001F64E9 /* SignLearnerView.swift in Sources */,
+				0183AC912BC5288F001F64E9 /* RegisterView.swift in Sources */,
+				015FD1492B98C4B000FE31B3 /* HomeView.swift in Sources */,
+				0183ACA62BCC31D0001F64E9 /* ContentMainView.swift in Sources */,
+				0183ACAD2BCC46F1001F64E9 /* Answer.swift in Sources */,
+				0183ACA42BCC2F63001F64E9 /* PrimaryButton.swift in Sources */,
+				0183AC8D2BC52739001F64E9 /* OnboardingView.swift in Sources */,
+				0183ACA12BCC2E3D001F64E9 /* QuestionView.swift in Sources */,
+				0183AC992BCC1C89001F64E9 /* FAQsView.swift in Sources */,
+				0183AC972BCC1C5F001F64E9 /* K53View.swift in Sources */,
+				015FD13A2B98C42B00FE31B3 /* Sign_Lic_demoApp.swift in Sources */,
+				0183ACAA2BCC3810001F64E9 /* ProgressBar.swift in Sources */,
+				0183ACB32BCC658E001F64E9 /* SignsLearner.swift in Sources */,
+				0183ACA82BCC3582001F64E9 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		015FD1422B98C42D00FE31B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		015FD1432B98C42D00FE31B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		015FD1452B98C42D00FE31B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sign_Lic_demo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sign-Lic-demo-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siyanda.Sign-Lic-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		015FD1462B98C42D00FE31B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sign_Lic_demo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sign-Lic-demo-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siyanda.Sign-Lic-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		015FD1312B98C42B00FE31B3 /* Build configuration list for PBXProject "Sign_Lic_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015FD1422B98C42D00FE31B3 /* Debug */,
+				015FD1432B98C42D00FE31B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		015FD1442B98C42D00FE31B3 /* Build configuration list for PBXNativeTarget "Sign_Lic_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015FD1452B98C42D00FE31B3 /* Debug */,
+				015FD1462B98C42D00FE31B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 015FD12E2B98C42B00FE31B3 /* Project object */;
+}

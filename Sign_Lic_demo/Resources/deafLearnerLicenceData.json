@@ -1,0 +1,772 @@
+{
+    "results": [
+        {
+            "id": 1,
+            "category": "Road Rules",
+            "question": "You may not obtain a learners license if...? \n(i) You already have a license that authorizes the driving of the same vehicle class, \n(ii) You are declared unfit to obtain a driving license for a certain period and that period still prevails, \n(iii) Your license was suspended temporarily and the suspension has not yet expired",
+            "incorrectAnswer": [
+                "A. (i) only is correct",
+                "B. (ii) and (iii) only are correct"
+            ],
+            "correctAnswer": "C. (i); (ii) and (iii) are correct",
+            "imageName": "",
+            "videoName": "testVideo"
+        },
+        {
+            "id": 2,
+            "category": "Road Signs",
+            "question": "  Sign warns you that there is...",
+            "incorrectAnswer": [
+                "A. Possibly pedestrians ahead.",
+                "C. Possibly school kids close to or in the road."
+            ],
+            "correctAnswer": "B. A marked pedestrian crossing ahead.",
+            "imageName": "pedestrian",
+            "videoName": "hello"
+        },
+        {
+            "id": 3,
+            "category": "Road Rules",
+            "question": "When are you allowed to drive your vehicle on the right-hand side of a road with traffic in both directions?",
+            "incorrectAnswer": [
+                "A. When you switch the emergency lights of your vehicle on.",
+                "C. Under no circumstances."
+            ],
+            "correctAnswer": "B. When a traffic officer orders you to do so.",
+            "imageName": "trafficOfficerOrders",
+            "videoName": "hello"
+        },
+        {
+            "id": 4,
+            "category": "Road Signs",
+            "question": "Sign shows you that you...",
+            "incorrectAnswer": [
+                "A. Can expect a sharp bent to the right",
+                "B. Will get a one-way road to the right"
+            ],
+            "correctAnswer": "C. Must turn right at the next road.",
+            "imageName": "turn-right",
+            "videoName": "hello"
+        },
+        {
+            "id": 5,
+            "category": "Road Rules",
+            "question": "You are not allowed to stop...",
+            "incorrectAnswer": [
+                "A. Where you are also prohibited to park.",
+                "C. Opposite a vehicle, where the roadway is 10m wide. "
+            ],
+            "correctAnswer": "B. 5m from a bridge.",
+            "imageName": "",
+            "videoName": "testVideo"
+        },
+        {
+            "id": 6,
+            "category": "Road Signs",
+            "question": "Sign shows you that...",
+            "incorrectAnswer": [
+                "B. The freeway ends.",
+                "C. There is a narrow bridge ahead."
+            ],
+            "correctAnswer": "A. The road narrows from both sides.",
+            "imageName": "roadNarrowsBothSide",
+            "videoName": "hello"
+        },
+        {
+            "id": 7,
+            "category": "Road Rules",
+            "question": "Road marking RTM 1 in the sketch  shows you  that you...",
+            "incorrectAnswer": [
+                "B. If you are driving in A, must reduce speed and drive on if it is safe.",
+                "C. If you are driving in B, can pass A if there are no other vehicles in the intersection."
+            ],
+            "correctAnswer": "A. If you are driving in A, must stop before this line and drive on when it is safe.",
+            "imageName": "RTM1Sketch",
+            "videoName": "hello"
+        },
+        {
+            "id": 8,
+            "category": "Road Signs",
+            "question": "Warning sign shows you that...",
+            "incorrectAnswer": [
+                "A. There is a possibility of  a flood ahead.",
+                "C. There is a low water bridge ahead."
+            ],
+            "correctAnswer": "B. The road end because of water ahead.",
+            "imageName": "roadEndWaterAhead",
+            "videoName": "hello"
+        },
+        {
+            "id": 9,
+            "category": "Road Rules",
+            "question": "At an intersection...",
+            "incorrectAnswer": [
+                "B. Vehicles have the right of way over pedestrians.",
+                "C. You can use a stop sign as a yield sign if there is no other traffic."
+            ],
+            "correctAnswer": "A. You must yield to oncoming traffic if you want to turn right.",
+            "imageName": "",
+            "videoName": "hello"
+        },
+        {
+            "id": 10,
+            "category": "Road Signs",
+            "question": "Road marking shows you that...",
+            "incorrectAnswer": [
+                "A. The road surface is uneven.",
+                "C. It is a lane reserved for buses only."
+            ],
+            "correctAnswer": "B. Traffic may not overtake or cross it on either side.",
+            "imageName": "notOvertakeSide",
+            "videoName": "hello"
+        },
+        {
+            "id": 11,
+            "category": "Road Rules",
+            "question": "When you want to change lanes and drive from **LI to L2** in the sketch below you must. \n(i) only do it when it is safe to do so. \n(ii) switch your indicators on in time to show what you are going to do. \n(iii) use the mirror(s) of your vehicle to ensure that you know of other traffic.",
+            "incorrectAnswer": [
+                "A. Only (i) and (ii) are correct",
+                "C. Only (ii) and (iii) are correct"
+            ],
+            "correctAnswer": "B. All of the above are correct.",
+            "imageName": "L1_L2",
+            "videoName": "hello"
+        },
+        {
+            "id": 12,
+            "category": "Road Signs",
+            "question": "Road marking **Z5** warns you that...",
+            "incorrectAnswer": [
+                "B. Roads cross ahead.",
+                "C. The freeway ends ahead."
+            ],
+            "correctAnswer": "A. There is a level crossing with one railway line ahead.",
+            "imageName": "raliwayAhead",
+            "videoName": "hello"
+        },
+        {
+            "id": 13,
+            "category": "Road Rules",
+            "question": " If you see that someone wants to overtake you, you must...\n(i)  keep to the left as far as is safe. \n(ii)  not drive faster. \n(iii)  give hand signals to allow the person to pass safely",
+            "incorrectAnswer": [
+                "B. All of the above are correct",
+                "C. (ii) Only is correct"
+            ],
+            "correctAnswer": "A. (i) and (ii) only are correct",
+            "imageName": "",
+            "videoName": "hello"
+        },
+        {
+            "id": 14,
+            "category": "Road Signs",
+            "question": "When you see sign **R2.1** you must...",
+            "incorrectAnswer": [
+                "A. Know that that section of the road is for the use of pedestrians only.",
+                "C. Stop because school kids might cross the road."
+            ],
+            "correctAnswer": "B. Give right of way to pedestrians who would like to cross the street",
+            "imageName": "YieldToPedestrians",
+            "videoName": "hello"
+        },
+        {
+            "id": 15,
+            "category": "Road Rules",
+            "question": "When you drive...",
+            "incorrectAnswer": [
+                "A. You must have two hands on the steering wheel..",
+                "C. You must wear shoes with rubber soles."
+            ],
+            "correctAnswer": "B. your vision of the road and the traffic must be unobstructed.",
+            "imageName": "",
+            "videoName": "hello"
+        },
+        {
+            "id": 16,
+            "category": "Road Signs",
+            "question": "Sign warns you that the road...",
+            "incorrectAnswer": [
+                "A. Has many curves.",
+                "C. Surface is damaged."
+            ],
+            "correctAnswer": "B. Is slippery when it is wet.",
+            "imageName": "slipperyWet",
+            "videoName": "hello"
+        },
+        {
+            "id": 17,
+            "category": "Road Rules",
+            "question": "The legal speed which you may drive...",
+            "incorrectAnswer": [
+                "A. Is always 120 km/h outside towns/cities.",
+                "B. Can be determined by yourself if you look at the number of lanes that the road has."
+            ],
+            "correctAnswer": "C. Is shown to you by signs next to the road.",
+            "imageName": "",
+            "videoName": "hello"
+        },
+        {
+            "id": 18,
+            "category": "Road Signs",
+            "question": "Sign warns you that...",
+            "incorrectAnswer": [
+                "A. There is a compulsory police stop ahead.",
+                "C. You are now entering an urban area"
+            ],
+            "correctAnswer": "B. There is a robot ahead.",
+            "imageName": "traffic_Signals",
+            "videoName": "hello"
+        },
+        {
+            "id": 19,
+            "category": "Road Rules",
+            "question": "Where may you legally stop with your vehicle?",
+            "incorrectAnswer": [
+                "A. 4 m From a tunnel",
+                "B. 5 m From a pedestrian crossing"
+            ],
+            "correctAnswer": "C. 6 m From a railway crossing",
+            "imageName": "",
+            "videoName": "hello"
+        },
+        {
+            "id": 20,
+            "category": "Road Signs",
+            "question": "What does warning sign shows you?",
+            "incorrectAnswer": [
+                "A. The road winds ahead.",
+                "B. A number of sharp curves is ahead"
+            ],
+            "correctAnswer": "C. A concealed entrance to the left is followed by one to the right.",
+            "imageName": "concealed",
+            "videoName": "hello"
+        },
+        {
+            "id": 21,
+            "category": "Road Signs",
+            "question": "If you are driving towards the circle, and there are also vehicles from the other three sides, you...",
+            "incorrectAnswer": [
+                "A. Must always wait for the vehicle from your right before you drive on.",
+                "C. Must stop with all the vehicles and only drive on when it is safe."
+            ],
+            "correctAnswer": "B. May drive on if you were the first vehicle over the line.",
+            "imageName": "towardsCircle",
+            "videoName": "hello"
+        },
+        {
+            "id": 22,
+            "category": "Road Signs",
+            "question": "Sign shows you that only ... may park there.",
+            "incorrectAnswer": [
+                "B. Motorcars that load or unload",
+                "C. Construction vehicles"
+            ],
+            "correctAnswer": "A. Goods vehicles that load or unload",
+            "imageName": "goodVehichleLoad",
+            "videoName": "hello"
+        },
+        {
+            "id": 23,
+            "category": "Road Rules",
+            "question": "You may not... \n(i) Run the engine of your vehicle unattended, \n(ii) Use your vehicle without a cap on the fuel tank, \n(iii) Spin the wheels of your vehicle when pulling off.",
+            "incorrectAnswer": [
+                "A. (i) and (ii) only are correct",
+                "B. (ii) only is correct"
+            ],
+            "correctAnswer": "C. All of the above are correct",
+            "imageName": "",
+            "videoName": "hello"
+        },
+        {
+            "id": 24,
+            "category": "Road Signs",
+            "question": "When the robot is red and the green arrow flashes to the right, it shows you that...",
+            "incorrectAnswer": [
+                "A. Only pedestrians may walk.",
+                "C. All traffic must turn right there."
+            ],
+            "correctAnswer": "B. If you want to turn right, you may go.",
+            "imageName": "greenArrowFlashesRight",
+            "videoName": "hello"
+        },
+        {
+            "id": 25,
+            "category": "Road Rules",
+            "question": "What is the maximum period of time that a vehicle may be parked in one  place on a road outside urban areas?",
+            "incorrectAnswer": [
+                "A. 7 Days",
+                "B. 48 Hours"
+            ],
+            "correctAnswer": "C. 24 Hours",
+            "imageName": "",
+            "videoName": "hello"
+        },
+        {
+            "id": 26,
+            "category": "Road Signs",
+            "question": "When you see sign you must...",
+            "incorrectAnswer": [
+                "A. Look out for road works where tractors operate.",
+                "B. Know that only agricultural vehicles may drive there."
+            ],
+            "correctAnswer": "C. Be on the lookout for agricultural vehicles that may be on the road.",
+            "imageName": "lookoutAgricultural",
+            "videoName": "hello"
+        },
+        {
+            "id": 27,
+            "category": "Road Rules",
+            "question": "When may you not pass another vehicle? When you... \n(i) Are nearing the top of a hill. \n(ii) Are nearing a curve. \n(iii) Can only see 100 m in front of you because of smoke over the road.",
+            "incorrectAnswer": [
+                "A. (i) Only is correct",
+                "C. (i) and (ii) Only are correct"
+            ],
+            "correctAnswer": "B. All of the above are correct.",
+            "imageName": "",
+            "videoName": "hello"
+        },
+        {
+            "id": 28,
+            "category": "Road Signs",
+            "question": "Warning sign shows you that...",
+            "incorrectAnswer": [
+                "B. Potholes are to be found on the road ahead.",
+                "C. The road is ending ahead"
+            ],
+            "correctAnswer": "A. The road on which you are driving is going to change to a gravel road.",
+            "imageName": "gravelRoad",
+            "videoName": "hello"
+        },
+        {
+            "id": 29,
+            "category": "Road Rules",
+            "question": "If you come to a traffic light and the red light flashes, you must...",
+            "incorrectAnswer": [
+                "A. Stop and wait for the light to change to green before you go..",
+                "C. Look out for a road block as the light shows you a police stop."
+            ],
+            "correctAnswer": "B. Stop and only go if it is safe to do so.",
+            "imageName": "",
+            "videoName": "hello"
+        },
+        {
+            "id": 30,
+            "category": "Road Signs",
+            "question": "What does sign shows you?",
+            "incorrectAnswer": [
+                "B. If you cannot see more than 100m in front of you, switch your lights on.",
+                "C. Dangerous conditions for the next 100 km."
+            ],
+            "correctAnswer": "A. You are not allowed to travel faster than 100 km/h at night.",
+            "imageName": "travelNight",
+            "videoName": "hello"
+        },
+        {
+            "id": 31,
+            "category": "Road Rules",
+            "question": "The furthest that your vehicle's dim lights may shine in front of you, is ... M.",
+            "incorrectAnswer": [
+                "B. 100.",
+                "C. 150."
+            ],
+            "correctAnswer": "A. 45.",
+            "imageName": "",
+            "videoName": "hello"
+        },
+        {
+            "id": 32,
+            "category": "Road Signs",
+            "question": "Road markings RTM3 in the sketch...",
+            "incorrectAnswer": [
+                "A. Show you that you may not stop further than the front one of the two.",
+                "C. Are lines that indicate another traffic lane.."
+            ],
+            "correctAnswer": "B. Are the lines where pedestrians walk..",
+            "imageName": "markingsRTM3",
+            "videoName": "hello"
+        },
+        {
+            "id": 33,
+            "category": "Road Rules",
+            "question": "What is important with regard to the hooter of your vehicle?",
+            "incorrectAnswer": [
+                "B. Someone must hear it from a distance of at least 45 m.",
+                "C. You may use it to get the attention of someone that you would like to offer a lift."
+            ],
+            "correctAnswer": "A. The tone of pitch of the sound may not change.",
+            "imageName": "",
+            "videoName": "hello"
+        },
+        {
+            "id": 34,
+            "category": "Road Signs",
+            "question": "Look in the sketch ,  When you see road marking (a), you …",
+            "incorrectAnswer": [
+                "A. May not park there because it is parking for ambulances only.",
+                "C. Know it is a lane reserved for emergency vehicles."
+            ],
+            "correctAnswer": "B. May not park there at all",
+            "imageName": "sketch6",
+            "videoName": "hello"
+        },
+        {
+            "id": 35,
+            "category": "Road Rules",
+            "question": "You may...",
+            "incorrectAnswer": [
+                "A. Drive your vehicle on the sidewalk,",
+                "C. Leave the engine of your vehicle running when you put petrol in it"
+            ],
+            "correctAnswer": "B. Allow your vehicle to move backwards only if it is safe to do so.",
+            "imageName": "",
+            "videoName": "hello"
+        },
+        {
+            "id": 36,
+            "category": "Road Signs",
+            "question": "If you see sign,you know that...",
+            "incorrectAnswer": [
+                "B. Vehicles with a mass of more than 10 tone may not drive there.",
+                "C. That section of the road can only carry vehicles that weigh up to 10 tone."
+            ],
+            "correctAnswer": "A. Vehicles with a mass of 10 tone and less may not drive there.",
+            "imageName": "massTone",
+            "videoName": "hello"
+        },
+        {
+            "id": 37,
+            "category": "Road Rules",
+            "question": "When do you have right of way? \n(i) When you are within a traffic circle.\n(ii) When you have stopped first at a four-way stop. \n(iii) When you want to turn right at an intersection in a two-way road.",
+            "incorrectAnswer": [
+                "B. All of the above are correct.",
+                "C. Only (i) is correct."
+            ],
+            "correctAnswer": "A. Only (i) and (ii) are correct.",
+            "imageName": "",
+            "videoName": "hello"
+        },
+        {
+            "id": 38,
+            "category": "Road Signs",
+            "question": "Arrow E in the sketch, shows you that you...",
+            "incorrectAnswer": [
+                "B. Can turn right or move straight on if it is safe.",
+                "C. Can still change lanes if you want to go on straight."
+            ],
+            "correctAnswer": "A. Must turn right from that lane.",
+            "imageName": "arrowEsketch",
+            "videoName": "hello"
+        },
+        {
+            "id": 39,
+            "category": "Road Rules",
+            "question": "The last action that you must take before moving to another lane is to...",
+            "incorrectAnswer": [
+                "A. Switch on your indicator.",
+                "C. Look in the rear view mirror."
+            ],
+            "correctAnswer": "B. Check the blind spot",
+            "imageName": "",
+            "videoName": "hello"
+        },
+        {
+            "id": 40,
+            "category": "Road Signs",
+            "question": "Sign shows you that there is a...",
+            "incorrectAnswer": [
+                "B. Obstruction left of the road.",
+                "C. Detour to the left"
+            ],
+            "correctAnswer": "A. Sharp curve to the left ahead",
+            "imageName": "leftAhead",
+            "videoName": "hello"
+        },
+        {
+            "id": 41,
+            "category": "Road Rules",
+            "question": "You may overtake another vehicle on the left-hand side... \n(i) When that vehicle is going to turn right and the road is wide enough that it is not  necessary to drive on the shoulder. \n(ii) Where the road has two lanes for traffic in the same direction. \n(iii) If a police officer instructs you to do so.",
+            "incorrectAnswer": [
+                "A. (iii) Only is correct.",
+                "B. (ii) and (iii) Only are correct"
+            ],
+            "correctAnswer": "C. All of the above a re correct",
+            "imageName": "",
+            "videoName": "hello"
+        },
+        {
+            "id": 42,
+            "category": "Road Signs",
+            "question": "Road marking shows you that you must...",
+            "incorrectAnswer": [
+                "A. Stop.",
+                "B. Look out for school kids."
+            ],
+            "correctAnswer": "C. Yield to all users of the road and possibly also trains.",
+            "imageName": "yieldRoadMark",
+            "videoName": "hello"
+        },
+        {
+            "id": 43,
+            "category": "Road Rules",
+            "question": "The license for your vehicle (clearance certificate) is valid for...",
+            "incorrectAnswer": [
+                "B. 90 Days.",
+                "C. 21 Days."
+            ],
+            "correctAnswer": "A. 12 Months.",
+            "imageName": "",
+            "videoName": "hello"
+        },
+        {
+            "id": 44,
+            "category": "Road Signs",
+            "question": "Sign shows you that...",
+            "incorrectAnswer": [
+                "B. You are not allowed to turn right there.",
+                "C. There is a T-junction to the right."
+            ],
+            "correctAnswer": "A. The road turning to the right, ends ahead.",
+            "imageName": "in6Sign",
+            "videoName": "hello"
+        },
+        {
+            "id": 45,
+            "category": "Road Rules",
+            "question": "Your vehicle's headlights must be switched on.... \n(i) At any time of the day when you cannot see persons and vehicles 150 m in front  of you. \n(ii) From sunset to sunrise. \n(iii) When it rains and you cannot see vehicles 100 m in front of you.",
+            "incorrectAnswer": [
+                "A. (ii) Only is correct.",
+                "B. (i) and (ii) Only are correct."
+            ],
+            "correctAnswer": "C. All of the above are correct.",
+            "imageName": "",
+            "videoName": "hello"
+        },
+        {
+            "id": 46,
+            "category": "Road Signs",
+            "question": "Sign shows you that there is a...",
+            "incorrectAnswer": [
+                "A. Curve to the left ahead.",
+                "C. Temporary detour to the left."
+            ],
+            "correctAnswer": "B. Temporary obstruction left of the road.",
+            "imageName": "temporaryObstructionLeft",
+            "videoName": "hello"
+        },
+        {
+            "id": 47,
+            "category": "Road Rules",
+            "question": "At an intersection ...",
+            "incorrectAnswer": [
+                "B. Vehicles have the right of way over pedestrians.",
+                "C. You can use a stop sign as a yield sign if there is no other traffic."
+            ],
+            "correctAnswer": "A. You must yield to oncoming traffic if you want to turn right.",
+            "imageName": "",
+            "videoName": "hello"
+        },
+        {
+            "id": 48,
+            "category": "Road Signs",
+            "question": "Sign shows you that you must...",
+            "incorrectAnswer": [
+                "A. Turn left at the stop sign.",
+                "B. Stop and then turn left or drive straight on."
+            ],
+            "correctAnswer": "C. Stop but if you want to turn left, you can use it as a yield sign.",
+            "imageName": "leftYieldSign",
+            "videoName": "hello"
+        },
+        {
+            "id": 49,
+            "category": "Road Rules",
+            "question": "The maximum distance between two vehicles which are being towed is  ...m",
+            "incorrectAnswer": [
+                "A. 1,8.",
+                "B. 2,5."
+            ],
+            "correctAnswer": "C. 3,5.",
+            "imageName": "",
+            "videoName": "hello"
+        },
+        {
+            "id": 50,
+            "category": "Road Signs",
+            "question": "Sign forbids...",
+            "incorrectAnswer": [
+                "B. All motor vehicles to drive past this sign.",
+                "C. Minibuses to pick up passengers."
+            ],
+            "correctAnswer": "A. Minibuses to drive past this sign.",
+            "imageName": "minibuses",
+            "videoName": "hello"
+        },
+        {
+            "id": 51,
+            "category": "Road Rules",
+            "question": "The lights of your vehicle parked on a public road between sunset and sunrise need not lighted when the vehicle is parked... \n(i) 10m from a lighted street lamp. \n(ii) Next to the roadway of the road. \n(iii) In a demarcated parking area",
+            "incorrectAnswer": [
+                "B. Only (i) and (iii) are correct.",
+                "C. Only (ii) and (iii) are correct."
+            ],
+            "correctAnswer": "A. All of the above are correct.",
+            "imageName": "",
+            "videoName": "hello"
+        },
+        {
+            "id": 52,
+            "category": "Road Signs",
+            "question": "Sign K3 shows you that you...",
+            "incorrectAnswer": [
+                "B. May not park there for more than 3 hours.",
+                "C. Are only allowed to drive there between 06:00 and 09:00."
+            ],
+            "correctAnswer": "A. May not drive there between 06:00 and 09:00.",
+            "imageName": "mayNotDrive",
+            "videoName": "hello"
+        },
+        {
+            "id": 53,
+            "category": "Road Rules",
+            "question": "It is illegal when you drive and a passenger...",
+            "incorrectAnswer": [
+                "A. Sits directly behind you when you only have a learner's license.",
+                "B. Fiddles with the motor radio's volume knob."
+            ],
+            "correctAnswer": "C. Rides on the bumper of your vehicle.",
+            "imageName": "",
+            "videoName": "hello"
+        },
+        {
+            "id": 54,
+            "category": "Road Signs",
+            "question": "Sign G9 shows you that...",
+            "incorrectAnswer": [
+                "A. You must use that part of the road.",
+                "C. There is parking for motor cars there."
+            ],
+            "correctAnswer": "B. You can use that part of the road if you wish.",
+            "imageName": "carRoadSign",
+            "videoName": "hello"
+        },
+        {
+            "id": 55,
+            "category": "Road Rules",
+            "question": "The tread pattern of you vehicle's tires may not be less than...mm",
+            "incorrectAnswer": [
+                "A. 0,75.",
+                "C. 1,5."
+            ],
+            "correctAnswer": "B. 1.",
+            "imageName": "",
+            "videoName": "hello"
+        },
+        {
+            "id": 56,
+            "category": "Road Rules",
+            "question": "Sign shows you that...",
+            "incorrectAnswer": [
+                "A. No taxis may drive there.",
+                "C. You may not park your motor car there."
+            ],
+            "correctAnswer": "B. No motor cars may drive there.",
+            "imageName": "noMotorCars",
+            "videoName": "hello"
+        },
+        {
+            "id": 57,
+            "category": "Vehicle Controls",
+            "question": "To turn, number ... is used.",
+            "incorrectAnswer": [
+                "B. 5.",
+                "C. 10."
+            ],
+            "correctAnswer": "A. 4.",
+            "imageName": "control_Car",
+            "videoName": ""
+        },
+        {
+            "id": 58,
+            "category": "Vehicle Controls",
+            "question": "Number... is not found in an automatic vehicle.",
+            "incorrectAnswer": [
+                "A. 2.",
+                "B. 6."
+            ],
+            "correctAnswer": "C. 8.",
+            "imageName": "control_Car",
+            "videoName": ""
+        },
+        {
+            "id": 59,
+            "category": "Vehicle Controls",
+            "question": "To ensure that your parked vehicle does not move use number.",
+            "incorrectAnswer": [
+                "B. 8.",
+                "C. 9."
+            ],
+            "correctAnswer": "A. 7.",
+            "imageName": "control_Car",
+            "videoName": ""
+        },
+        {
+            "id": 60,
+            "category": "Vehicle Controls",
+            "question": "To select a gear, you must use numbers...",
+            "incorrectAnswer": [
+                "A. 7 And 9.",
+                "B. 5 And 8."
+            ],
+            "correctAnswer": "C. 6 And 8.",
+            "imageName": "control_Car",
+            "videoName": ""
+        },
+        {
+            "id": 61,
+            "category": "Vehicle Controls",
+            "question": "To accelerate your vehicle, you must use number...",
+            "incorrectAnswer": [
+                "A. 6.",
+                "B. 8."
+            ],
+            "correctAnswer": "C. 10.",
+            "imageName": "control_Car",
+            "videoName": ""
+        },
+        {
+            "id": 62,
+            "category": "Vehicle Controls",
+            "question": "To stop your vehicle, you must use number...",
+            "incorrectAnswer": [
+                "B. 8.",
+                "C. 7."
+            ],
+            "correctAnswer": "A. 9.",
+            "imageName": "control_Car",
+            "videoName": ""
+        },
+        {
+            "id": 63,
+            "category": "Vehicle Controls",
+            "question": "The distance it takes the driver of a motor vehicle to stop it is... \n(i) Longer on a wet road than on a dry road. \n(ii) Longer if the vehicle is travelling at a higher speed. \n(iii) Longer if the vehicle is loaded.",
+            "incorrectAnswer": [
+                "A. None of the above are correct.",
+                "C. (i) Only is correct."
+            ],
+            "correctAnswer": "B. All of the above are correct.",
+            "imageName": "",
+            "videoName": "testVideo"
+        },
+        {
+            "id": 64,
+            "category": "Vehicle Controls",
+            "question": "What controls must you use when you are going to turn sharp?",
+            "incorrectAnswer": [
+                "A. 1,3, 5,6 And 8 only.",
+                "B. 3,4, 5, 9 And 10 only."
+            ],
+            "correctAnswer": "C. 1,3,4, 5,6, 8.9 And 10 only.",
+            "imageName": "control_Car",
+            "videoName": ""
+        }
+    ]
+}
