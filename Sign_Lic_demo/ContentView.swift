@@ -26,9 +26,12 @@ struct ContentView: View {
                         .frame(width: 410, height: 200)
                         .padding()
                     
-                    Text("Hello")
-                        .font(.largeTitle)
+                    // nomonde check github
+                    Text("Welcoome to App")
+                        .font(.title)
                         .fontWeight(.heavy)
+                        .foregroundColor(.white)
+                        .font(.system(size: 19))
                     
                     // Logo image
                     Image(systemName: "car.2.fill")
