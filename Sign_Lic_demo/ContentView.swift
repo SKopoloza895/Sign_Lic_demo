@@ -27,6 +27,8 @@ struct ContentView: View {
                         .padding()
                     
                     Text("Hello")
+                        .font(.largeTitle)
+                        .fontWeight(.heavy)
                     
                     // Logo image
                     Image(systemName: "car.2.fill")
