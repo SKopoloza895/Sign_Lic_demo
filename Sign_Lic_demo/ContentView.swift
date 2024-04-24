@@ -26,6 +26,8 @@ struct ContentView: View {
                         .frame(width: 410, height: 200)
                         .padding()
                     
+                    Text("Hello")
+                    
                     // Logo image
                     Image(systemName: "car.2.fill")
                         .resizable()
