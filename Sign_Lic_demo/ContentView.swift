@@ -26,11 +26,7 @@ struct ContentView: View {
                         .frame(width: 410, height: 200)
                         .padding()
                     
-                    // nomonde check github
-                    Text("Hello Siyanda")
-                    
-                    //Fix this: aligment
-                    Text("Welcoome to App")
+                    Text("Welcome to App") //Fixed the spelling
                         .font(.title)
                         .fontWeight(.heavy)
                         .foregroundColor(.white)
