@@ -69,7 +69,7 @@
 		0183AD0B2BCE788F001F64E9 /* markingsRTM3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACE52BCE788F001F64E9 /* markingsRTM3@2x.png */; };
 		0183AD0C2BCE788F001F64E9 /* traffic_Signals@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACE62BCE788F001F64E9 /* traffic_Signals@2x.jpeg */; };
 		0183AD0D2BCE788F001F64E9 /* leftYieldSign@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACE72BCE788F001F64E9 /* leftYieldSign@2x.png */; };
-		01D56F6E2BD79B6300FD1082 /* VideoTestGitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D56F6D2BD79B6300FD1082 /* VideoTestGitView.swift */; };
+		018F48C02C1B172C00CFD3B6 /* intructionCode.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 018F48BF2C1B172C00CFD3B6 /* intructionCode.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -141,7 +141,7 @@
 		0183AD0E2BCE8399001F64E9 /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video4.mp4; sourceTree = "<group>"; };
 		0183AD0F2BCE839A001F64E9 /* video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video3.mp4; sourceTree = "<group>"; };
 		0183AD102BCE87F1001F64E9 /* Sign-Lic-demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Sign-Lic-demo-Info.plist"; sourceTree = SOURCE_ROOT; };
-		01D56F6D2BD79B6300FD1082 /* VideoTestGitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTestGitView.swift; sourceTree = "<group>"; };
+		018F48BF2C1B172C00CFD3B6 /* intructionCode.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intructionCode.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +158,7 @@
 		015FD12D2B98C42B00FE31B3 = {
 			isa = PBXGroup;
 			children = (
+				018F48BF2C1B172C00CFD3B6 /* intructionCode.mp4 */,
 				015FD1382B98C42B00FE31B3 /* Sign_Lic_demo */,
 				015FD1372B98C42B00FE31B3 /* Products */,
 			);
@@ -212,7 +213,6 @@
 				0183ACA52BCC31D0001F64E9 /* ContentMainView.swift */,
 				0183ACA02BCC2E3D001F64E9 /* QuestionView.swift */,
 				0183ACB02BCC4D65001F64E9 /* SignLearnerView.swift */,
-				01D56F6D2BD79B6300FD1082 /* VideoTestGitView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -360,6 +360,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				018F48C02C1B172C00CFD3B6 /* intructionCode.mp4 in Resources */,
 				0183ACF92BCE788F001F64E9 /* left-only-sign@2x.jpeg in Resources */,
 				0183ACF42BCE788F001F64E9 /* trafficOfficerOrders@2x.jpeg in Resources */,
 				0183AD0D2BCE788F001F64E9 /* leftYieldSign@2x.png in Resources */,
@@ -416,7 +417,6 @@
 				0183AC8B2BC2A189001F64E9 /* SplashScreenView.swift in Sources */,
 				0183AC9B2BCC1CB3001F64E9 /* ProfileView.swift in Sources */,
 				0183ACAF2BCC47BE001F64E9 /* AnswerRow.swift in Sources */,
-				01D56F6E2BD79B6300FD1082 /* VideoTestGitView.swift in Sources */,
 				0183ACB52BCC675E001F64E9 /* SignManager.swift in Sources */,
 				015FD13C2B98C42B00FE31B3 /* ContentView.swift in Sources */,
 				0183ACB12BCC4D65001F64E9 /* SignLearnerView.swift in Sources */,

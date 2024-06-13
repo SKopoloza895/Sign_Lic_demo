@@ -10,7 +10,7 @@
             ],
             "correctAnswer": "C. (i); (ii) and (iii) are correct",
             "imageName": "",
-            "videoName": "testVideo"
+            "videoName": "intructionCode"
         },
         {
             "id": 2,
@@ -22,7 +22,7 @@
             ],
             "correctAnswer": "B. A marked pedestrian crossing ahead.",
             "imageName": "pedestrian",
-            "videoName": "hello"
+            "videoName": "intructionCode"
         },
         {
             "id": 3,

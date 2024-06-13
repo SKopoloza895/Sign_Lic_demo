@@ -17,7 +17,7 @@ struct QuestionView: View {
     var body: some View {
         VStack(spacing: 40) {
             HStack {
-                Text("Deaf Learner's License")
+                Text("Deaf Learner's Lic")
                     .lilacText()
                 
                 Spacer()
@@ -29,27 +29,23 @@ struct QuestionView: View {
             
             ProgressBar(progress: 40)
             
-//            for add video 
-//            if let videoName = signManager.currentQuestionVideoName {
-//                VideoPlayer(player: AVPlayer(url: Bundle.main.url(forResource: videoName, withExtension: "mp4")!))
-//                    .frame(height: 200)
-//                    .cornerRadius(10)
-//            }
-            if let videoURL = Bundle.main.url(forResource: videoFileName, withExtension: "mp4") {
-                VideoPlayer(player: AVPlayer(url: videoURL))
+//          Add Video
+            if let videoName = signManager.currentQuestionVideoName {
+                VideoPlayer(player: AVPlayer(url: Bundle.main.url(forResource: videoName, withExtension: "mp4")!))
                     .frame(height: 200)
                     .cornerRadius(10)
-            } else {
+            }else {
                 Text("Video not found")
                     .foregroundColor(.red)
             }
             
+            // Add Questions
             VStack(alignment: .leading, spacing: 20) {
                 Text(signManager.question)
                     .font(.system(size: 20))
                     .bold()
                     .foregroundColor(.gray)
-                
+//                Add the selection
                 ForEach(signManager.answerChoices, id: \.id) { answer in
                     AnswerRow(answer: answer)
                         .environmentObject(signManager)
@@ -58,6 +54,7 @@ struct QuestionView: View {
                 
             }
             
+//            Add Button for Next Question when selection
             Button {
                 signManager.goNextQuestion()
             } label: {
@@ -72,7 +69,8 @@ struct QuestionView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .edgesIgnoringSafeArea(.all)
         .background(Color(red: 0.984313725490196, green: 0.9294117647058824, blue: 0.8470588235294118))
-        .navigationBarBackButtonHidden(true) // no need show back button
+        // no need show back button
+        .navigationBarBackButtonHidden(true)
         
     }
 }
