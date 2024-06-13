@@ -98,7 +98,6 @@
 		0183ACB42BCC675E001F64E9 /* SignManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignManager.swift; sourceTree = "<group>"; };
 		0183ACB72BCC7670001F64E9 /* deafLearnerLicenceData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = deafLearnerLicenceData.json; sourceTree = "<group>"; };
 		0183ACB92BCC76AB001F64E9 /* testVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = testVideo.mp4; sourceTree = "<group>"; };
-		0183ACBA2BCC76AB001F64E9 /* hello.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hello.mp4; sourceTree = "<group>"; };
 		0183ACC02BCE781B001F64E9 /* carViewGreen.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carViewGreen.jpeg; sourceTree = "<group>"; };
 		0183ACC22BCE788E001F64E9 /* carryLoad@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "carryLoad@2x.jpeg"; sourceTree = "<group>"; };
 		0183ACC32BCE788E001F64E9 /* roadNarrowsBothSide@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "roadNarrowsBothSide@2x.png"; sourceTree = "<group>"; };
@@ -139,7 +138,6 @@
 		0183ACE62BCE788F001F64E9 /* traffic_Signals@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "traffic_Signals@2x.jpeg"; sourceTree = "<group>"; };
 		0183ACE72BCE788F001F64E9 /* leftYieldSign@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftYieldSign@2x.png"; sourceTree = "<group>"; };
 		0183AD0E2BCE8399001F64E9 /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video4.mp4; sourceTree = "<group>"; };
-		0183AD0F2BCE839A001F64E9 /* video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video3.mp4; sourceTree = "<group>"; };
 		0183AD102BCE87F1001F64E9 /* Sign-Lic-demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Sign-Lic-demo-Info.plist"; sourceTree = SOURCE_ROOT; };
 		018F48BF2C1B172C00CFD3B6 /* intructionCode.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intructionCode.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,7 +156,6 @@
 		015FD12D2B98C42B00FE31B3 = {
 			isa = PBXGroup;
 			children = (
-				018F48BF2C1B172C00CFD3B6 /* intructionCode.mp4 */,
 				015FD1382B98C42B00FE31B3 /* Sign_Lic_demo */,
 				015FD1372B98C42B00FE31B3 /* Products */,
 			);
@@ -176,7 +173,6 @@
 			isa = PBXGroup;
 			children = (
 				0183AD102BCE87F1001F64E9 /* Sign-Lic-demo-Info.plist */,
-				0183AD112BCE8850001F64E9 /* VideoPlayers */,
 				015FD1392B98C42B00FE31B3 /* Sign_Lic_demoApp.swift */,
 				015FD13B2B98C42B00FE31B3 /* ContentView.swift */,
 				0183AC8C2BC52739001F64E9 /* OnboardingView.swift */,
@@ -239,6 +235,7 @@
 		0183ACB62BCC75D0001F64E9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0183AD112BCE8850001F64E9 /* VideoPlayers */,
 				0183ACBF2BCE7752001F64E9 /* Images */,
 				0183ACB72BCC7670001F64E9 /* deafLearnerLicenceData.json */,
 			);
@@ -294,10 +291,9 @@
 		0183AD112BCE8850001F64E9 /* VideoPlayers */ = {
 			isa = PBXGroup;
 			children = (
+				018F48BF2C1B172C00CFD3B6 /* intructionCode.mp4 */,
 				0183AD0E2BCE8399001F64E9 /* video4.mp4 */,
-				0183ACBA2BCC76AB001F64E9 /* hello.mp4 */,
 				0183ACB92BCC76AB001F64E9 /* testVideo.mp4 */,
-				0183AD0F2BCE839A001F64E9 /* video3.mp4 */,
 			);
 			path = VideoPlayers;
 			sourceTree = "<group>";
