@@ -17,7 +17,7 @@ struct SplashScreenView: View {
                 .edgesIgnoringSafeArea(.all) // Ensure the image covers the whole screen
             
             if self.isActive {
-                ContentView()
+                LoginView()
             } else {
 //                Rectangle()
 //                    .foregroundColor(Color.white)
