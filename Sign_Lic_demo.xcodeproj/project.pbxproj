@@ -70,6 +70,7 @@
 		0183AD0C2BCE788F001F64E9 /* traffic_Signals@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACE62BCE788F001F64E9 /* traffic_Signals@2x.jpeg */; };
 		0183AD0D2BCE788F001F64E9 /* leftYieldSign@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0183ACE72BCE788F001F64E9 /* leftYieldSign@2x.png */; };
 		018F48C02C1B172C00CFD3B6 /* intructionCode.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 018F48BF2C1B172C00CFD3B6 /* intructionCode.mp4 */; };
+		018F48C22C1B26FD00CFD3B6 /* InputFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018F48C12C1B26FD00CFD3B6 /* InputFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -140,6 +141,7 @@
 		0183AD0E2BCE8399001F64E9 /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video4.mp4; sourceTree = "<group>"; };
 		0183AD102BCE87F1001F64E9 /* Sign-Lic-demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Sign-Lic-demo-Info.plist"; sourceTree = SOURCE_ROOT; };
 		018F48BF2C1B172C00CFD3B6 /* intructionCode.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intructionCode.mp4; sourceTree = "<group>"; };
+		018F48C12C1B26FD00CFD3B6 /* InputFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 				0183ACA32BCC2F63001F64E9 /* PrimaryButton.swift */,
 				0183ACA92BCC3810001F64E9 /* ProgressBar.swift */,
 				0183ACAE2BCC47BE001F64E9 /* AnswerRow.swift */,
+				018F48C12C1B26FD00CFD3B6 /* InputFieldView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -423,6 +426,7 @@
 				0183ACA42BCC2F63001F64E9 /* PrimaryButton.swift in Sources */,
 				0183AC8D2BC52739001F64E9 /* OnboardingView.swift in Sources */,
 				0183ACA12BCC2E3D001F64E9 /* QuestionView.swift in Sources */,
+				018F48C22C1B26FD00CFD3B6 /* InputFieldView.swift in Sources */,
 				0183AC992BCC1C89001F64E9 /* FAQsView.swift in Sources */,
 				0183AC972BCC1C5F001F64E9 /* K53View.swift in Sources */,
 				015FD13A2B98C42B00FE31B3 /* Sign_Lic_demoApp.swift in Sources */,

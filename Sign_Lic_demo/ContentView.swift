@@ -40,12 +40,7 @@ struct ContentView: View {
                         .padding()
                         .foregroundColor(.white)
                     
-                    // Welcome message
-                    Text("Welcome to Sign_Lic App")
-                        .font(.title)
-                        .padding()
-                        .foregroundColor(.white)
-                    
+                
                     // Navigation to login view
                     NavigationLink(destination: LoginView()) {
                         Text("Login")

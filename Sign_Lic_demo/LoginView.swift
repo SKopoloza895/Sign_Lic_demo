@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct LoginView: View    {
-    @State private var mobileNumber = ""
-    @State private var password = ""
+    @State var username: String = ""
+    @State var password: String = ""
     @State private var isForgotPasswordActive = false
     @State private var showingHome = false
     
@@ -17,7 +17,7 @@ struct LoginView: View    {
         NavigationView {
             ZStack {
                 LinearGradient(
-                    gradient: Gradient(colors: [.red, .yellow]),
+                    gradient: Gradient(colors: [.white, .gray]),
                     startPoint: .leading,
                     endPoint: .trailing
                 )
@@ -32,37 +32,15 @@ struct LoginView: View    {
                         .shadow(radius: 10)
                         .padding(.bottom, 30)
                     
-                    TextField("Mobile Number", text: $mobileNumber)
-                        .padding()
-                        .shadow(radius: 5)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                        .keyboardType(.numberPad)
+                    Text("Login")
+                        .font(.largeTitle)
+                        .fontWeight(.black)
+                        .padding(.bottom, 42)
                     
-                    TextField("Password", text: $password)
-                        .padding()
-                        .shadow(radius: 5)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                        .keyboardType(.namePhonePad)
-                    
-//                        .padding(10)
-//                        .background(.white)
-//                        .cornerRadius(20.0)
-//                        .keyboardType(.alphabet)
-                    
-                    HStack {
-                        Spacer()
-                        
-                        Button(action: {
-                            // Handle forgot password action here
-                            isForgotPasswordActive = true
-                        }) {
-                            Text("Forgot Password?")
-                                .foregroundColor(.black)
-                                .italic()
-                                .padding()
-                        }
+                    VStack(spacing: 16.0) {
+                        InputFieldView(data: $username, title: "Username")
+                        InputFieldView(data: $password, title: "Password")
                     }
-                    
                     Button(action: {
                         // Handle login action here
                         if isValidLogin() {
@@ -77,13 +55,30 @@ struct LoginView: View    {
                             print("Login failed")
                         }
                     }) {
-                        Text("Login")
-                            .foregroundColor(.white)
+                        Text("Sign In")
+                            .fontWeight(.heavy)
+                            .font(.title3)
+                            .frame(maxWidth: .infinity)
                             .padding()
-                            .frame(width: 250, height: 50)
-                            .background(Color.blue)
-                            .cornerRadius(25)
+                            .foregroundColor(.white)
+                            .background(LinearGradient(gradient: Gradient(colors: [.blue, .gray]), startPoint: .leading, endPoint: .trailing))
+                            .cornerRadius(40)
                     }
+//                  Add Forget password
+                    HStack {
+                        Spacer()
+                        
+                        Button(action: {
+                            // Handle forgot password action here
+                            isForgotPasswordActive = true
+                        }) {
+                            Text("Forgotten Password?")
+                                .fontWeight(.thin)            // make the font thinner
+                                .foregroundColor(Color.blue)  // make the color blue
+                                .underline()
+                        }
+                    }
+                    .padding(.top, 16)
                     
                     NavigationLink(destination: RegisterView()) {
                         Text("Do you have an account ?")
@@ -98,7 +93,7 @@ struct LoginView: View    {
                     }
                 }
             }
-            .navigationTitle("Sign in")
+//            .navigationTitle("Sign in")
         }
         .background(
             NavigationLink(destination: HomeView(), isActive: $showingHome) {
@@ -110,11 +105,11 @@ struct LoginView: View    {
     
     func isValidLogin() -> Bool {
         // This is a placeholder implementation. You should replace it with your actual authentication logic.
-        let validMobileNumber = "0123456789" // Example valid mobile number
+        let validUsername = "signLic" // Example valid username
         let validPassword = "password" // Example valid password
         
         // Check if the entered mobile number and password match the valid credentials
-        return mobileNumber == validMobileNumber && password == validPassword
+        return username == validUsername && password == validPassword
     }
 }
 
