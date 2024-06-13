@@ -2,3 +2,5 @@
 *.xcuserstate
 # Xcode specific files
 *.xcuserstate
+.DS_Store
+*.xcuserstate
