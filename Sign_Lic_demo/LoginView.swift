@@ -41,6 +41,7 @@ struct LoginView: View    {
                     
                     VStack(spacing: 16.0) {
                         InputFieldView(data: $username, title: "Username")
+                        
                         InputFieldView(data: $password, title: "Password")
                     }
                     Button(action: {
@@ -115,11 +116,11 @@ struct LoginView: View    {
     }
     
     func isValidLogin() -> Bool {
-        // This is a placeholder implementation. You should replace it with your actual authentication logic.
-        let validUsername = "signLic" // Example valid username
-        let validPassword = "password" // Example valid password
+        // Replace with your actual login validation logic
+        // For example, checking against hardcoded credentials
+        let validUsername = "user"
+        let validPassword = "password"
         
-        // Check if the entered mobile number and password match the valid credentials
         return username == validUsername && password == validPassword
     }
 }

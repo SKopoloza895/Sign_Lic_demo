@@ -15,11 +15,11 @@ struct InputFieldView: View {
     var body: some View {
         ZStack {
             TextField("", text: $data)
-                .padding(.horizontal, 10)
+                .padding(.horizontal, 5)
                 .frame(height: 42)
                 .overlay(
-                    RoundedRectangle(cornerSize: CGSize(width: 4, height: 4)) // create a rounded rectangle
-                        .stroke(Color.gray, lineWidth: 1)                     // and set its border color to gray with a line widht of 1
+                    RoundedRectangle(cornerSize: CGSize(width: 10, height: 10)) // create a rounded rectangle
+                        .stroke(Color.gray, lineWidth: 1.5)                     // and set its border color to gray with a line widht of 1
                 )
             // HStack for the text
             HStack {
