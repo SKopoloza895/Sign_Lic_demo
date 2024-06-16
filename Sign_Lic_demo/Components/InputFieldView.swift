@@ -19,17 +19,19 @@ struct InputFieldView: View {
                 .frame(height: 42)
                 .overlay(
                     RoundedRectangle(cornerSize: CGSize(width: 10, height: 10)) // create a rounded rectangle
-                        .stroke(Color.gray, lineWidth: 1.5)                     // and set its border color to gray with a line widht of 1
+                        .stroke(Color.gray, lineWidth: 1)                     // and set its border color to gray with a line widht of 1
                 )
+            
             // HStack for the text
             HStack {
                 Text(title ?? "Input")
                     .font(.headline)
-                    .fontWeight(.thin)
+                    .fontWeight(.regular)
                     .foregroundColor(Color.gray)
                     .multilineTextAlignment(.leading)
                     .padding(4)
                     .background(.white)
+                    .cornerRadius(10)
                 Spacer()                  // pushing the text to the left
             }
             .padding(.leading, 8)

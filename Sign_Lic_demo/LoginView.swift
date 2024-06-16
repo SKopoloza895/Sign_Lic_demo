@@ -28,7 +28,7 @@ struct LoginView: View    {
                 VStack {
                     Image(systemName: "car.circle")
                         .resizable()
-                        .frame(width: 220, height: 220)
+                        .frame(width: 200, height: 200)
                         .clipShape(Circle())
 //                        .overlay(Circle().stroke(Color.white, lineWidth: 4))
                         .shadow(radius: 10)
@@ -47,25 +47,19 @@ struct LoginView: View    {
                     Button(action: {
                         // Handle login action here
                         if isValidLogin() {
-                            // If login is successful, navigate to the next screen or perform other actions
-                            // For now, I'll print a message indicating successful login
                             alertMessage = "Login successful"
                             alertColor = .green
-//                            print("Login successful")
                             
                             showingHome = true // Activate the NavigationLink to navigate to HomeView
                         } else {
-                            // If login fails, update the alert message and color
                             alertMessage = "Login failed"
                             alertColor = .red
-                            // For now, I'll print a message indicating failed login
-                            print("Login failed")
                         }
                     }) {
                         Text("Sign In")
                             .fontWeight(.heavy)
                             .font(.title3)
-                            .frame(maxWidth: .infinity)
+                            .frame(maxWidth: 330)
                             .padding()
                             .foregroundColor(.white)
                             .background(LinearGradient(gradient: Gradient(colors: [.blue, .gray]), startPoint: .leading, endPoint: .trailing))
@@ -105,7 +99,6 @@ struct LoginView: View    {
                     }
                 }
             }
-//            .navigationTitle("Sign in")
         }
         .background(
             NavigationLink(destination: HomeView(), isActive: $showingHome) {
