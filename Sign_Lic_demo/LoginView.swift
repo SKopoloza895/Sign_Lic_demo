@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LoginView: View    {
+struct LoginView: View {
     @State var username: String = ""
     @State var password: String = ""
     @State private var isForgotPasswordActive = false
@@ -30,7 +30,6 @@ struct LoginView: View    {
                         .resizable()
                         .frame(width: 200, height: 200)
                         .clipShape(Circle())
-//                        .overlay(Circle().stroke(Color.white, lineWidth: 4))
                         .shadow(radius: 10)
                         .padding(.bottom, 30)
                     
@@ -43,49 +42,50 @@ struct LoginView: View    {
                         InputFieldView(data: $username, title: "Username")
                         
                         InputFieldView(data: $password, title: "Password")
-                    }
-                    Button(action: {
-                        // Handle login action here
-                        if isValidLogin() {
-                            alertMessage = "Login successful"
-                            alertColor = .green
-                            
-                            showingHome = true // Activate the NavigationLink to navigate to HomeView
-                        } else {
-                            alertMessage = "Login failed"
-                            alertColor = .red
+                        
+                        Button(action: {
+                            // Handle login action here
+                            if isValidLogin() {
+                                alertMessage = "Login successful"
+                                alertColor = .green
+                                showingHome = true // Activate the NavigationLink to navigate to HomeView
+                            } else {
+                                alertMessage = "Login failed"
+                                alertColor = .red
+                            }
+                        }) {
+                            Text("Sign In")
+                                .fontWeight(.heavy)
+                                .font(.title3)
+                                .frame(maxWidth: 330)
+                                .padding()
+                                .foregroundColor(.white)
+                                .background(LinearGradient(gradient: Gradient(colors: [.blue, .gray]), startPoint: .leading, endPoint: .trailing))
+                                .cornerRadius(40)
                         }
-                    }) {
-                        Text("Sign In")
-                            .fontWeight(.heavy)
-                            .font(.title3)
-                            .frame(maxWidth: 330)
-                            .padding()
-                            .foregroundColor(.white)
-                            .background(LinearGradient(gradient: Gradient(colors: [.blue, .gray]), startPoint: .leading, endPoint: .trailing))
-                            .cornerRadius(40)
+                        
+                        HStack {
+                            Spacer()
+                            
+                            Button(action: {
+                                // Handle forgot password action here
+                                isForgotPasswordActive = true
+                            }) {
+                                Text("Forgotten Password?")
+                                    .fontWeight(.thin)
+                                    .foregroundColor(Color.blue)
+                                    .underline()
+                            }
+                        }
+                        .padding(.trailing, 16)
                     }
+                    
                     // Display the alert message
                     Text(alertMessage)
                         .foregroundColor(alertColor)
                         .padding()
                     
-//                  Add Forget password
-                    HStack {
-                        Spacer()
-                        
-                        Button(action: {
-                            // Handle forgot password action here
-                            isForgotPasswordActive = true
-                        }) {
-                            Text("Forgotten Password?")
-                                .fontWeight(.thin)
-                                .foregroundColor(Color.blue)
-                                .underline()
-                        }
-                    }
-                    .padding(.top, 16)
-                    
+                    // Navigation to Register View
                     NavigationLink(destination: RegisterView()) {
                         Text("Do you have an account ?")
                             .font(.headline)
@@ -99,13 +99,13 @@ struct LoginView: View    {
                     }
                 }
             }
-        }
-        .background(
-            NavigationLink(destination: HomeView(), isActive: $showingHome) {
-                EmptyView()
-            }
+            .background(
+                NavigationLink(destination: HomeView(), isActive: $showingHome) {
+                    EmptyView()
+                }
                 .hidden() // Hide the NavigationLink initially
-        )
+            )
+        }
     }
     
     func isValidLogin() -> Bool {
